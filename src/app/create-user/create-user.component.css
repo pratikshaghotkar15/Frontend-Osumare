@@ -1,0 +1,19 @@
+
+.contact img{
+	width: 1600px;
+	height: 300px;
+}
+	
+.joinnow{
+	background-color: ##fffdfd;
+	
+}
+.login{
+	background-color: #fefefe;
+	padding: 20px 30px;
+}
+@media screen and(max-width:600px){
+	.joinnow{
+	padding: 140px 30px;
+}
+}

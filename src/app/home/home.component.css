@@ -1,0 +1,51 @@
+
+
+
+.home img{
+	
+	width: 1600px;
+	height: 600px;
+	object-position: center;
+	object-fit: cover;
+}
+.homecontent
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.homecontent h2
+{
+	color: #fdfdfd;
+	font-size: 20px;
+	
+}
+
+.homecontent a
+{
+	margin-top: 20px;
+	color: #f5f5f5;
+
+}
+
+.homecontent p
+{
+	color: #fdfdfd;
+
+	
+}
+	
+@media screen and (max-width:600px)
+{
+	.home img
+	{
+		height: 700px;
+	}
+	.homecontent h1
+	{
+		font-size: 400px;
+	}
+}
+
